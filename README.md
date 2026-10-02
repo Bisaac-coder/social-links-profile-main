@@ -38,7 +38,7 @@ Users should be able to:
  ##solution links
 
 - Solution URL: [Github](https://github.com/Bisaac-coder/social-links-profile-main)
-- Live Site URL: [Bisaac-coder](https://your-live-site-url.com)
+- Live Site URL: [Bisaac-coder](https://bisaac-coder.github.io/social-links-profile-main/)
 
 ## My process
 I first started with structuring the
