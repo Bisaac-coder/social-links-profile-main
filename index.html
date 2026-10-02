@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+ 
+  <style>
+  @font-face {font-family:inter;
+    src:url(./Inter-VariableFont_slnt,wght.ttf)
+    format("truetype");
+  }
+  @font-face{font-family:inter-regular;
+    src:url(./Inter-Regular.ttf)
+    format("truetype");
+  }
+  @font-face { font-family:inter-bold;
+    src:url(./Inter-Bold.ttf) 
+    format("truetype");
+  }
+  
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    min-height:100vh;
+    background-color:hsl(0, 0%, 8%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+    color:hsl(0, 0%, 100%);
+    font-family:inter;
+  }
+  
+  .container{
+    width:100%;
+    max-width:375px;
+    
+  
+    background-color: hsl(0, 0%, 12%);
+    padding:20px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    text-align:center;
+    
+  }
+  
+  .avatar{
+    width:100px;
+    height:100px;
+   border-radius:50px;
+  
+  }
+  
+  .name{
+    color:hsl(0, 0%, 100%);
+    font-family:inter;
+    margin-bottom:10px;
+  }
+  
+  .location{
+    color:hsl(75, 94%, 57%);
+   margin-bottom:10px; 
+  }
+  
+  .p{
+    font-size:15px;
+  }
+  
+  .options{
+    width:100%;
+    gap:16px;
+    display:flex;
+    flex-direction:column;
+    
+   
+  }
+  
+  .items{
+    background-color:hsl(0, 0%, 20%);
+    font-family:inter-bold;
+    color:hsl(0, 0%, 100%);
+    text-decoration:none;
+    padding:12px;
+    border-radius:12px;
+    
+  }
+  
+  .items:hover,.items:focus-visible{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+  }
+  
+  
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <img class="avatar" src="./avatar-jessica.jpeg" alt="Jessica randall">
+  <span>
+    
+    <h2 class="name">Jessica Randall</h2>
+    
+    <h4 class="location">London, United Kingdom</h4>
+    
+  </span>
+  
+  <p class="p">"Front-end developer and avid reader."</p>
+  
+   <div class="options">
+    
+    <a class="items" href="#">GitHub</a>
+    
+  <a class="items" href="#">Frontend Mentor</a>
+    
+  <a class="items" href="#">LinkedIn</a>
+    
+  <a class="items" href="#">Twitter</a>
+    
+  <a class="items" href="#">Instagram</a>
+    
+  </div>
+  
+  </div>
+    
+    
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Bisaac-coder">Bisaac-coder</a>.
+  </footer>
+</body>
+</html>
